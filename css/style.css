@@ -11,6 +11,7 @@
 @import url(./home/introducao.css);
 /* bicicletas */
 @import url(./bicicletas/bicicletas\ -lista.css);
+@import url(./bicicletas/bicicletas\ .css);
 /*tecnologia*/
 @import url(./home/tecnologia.css);
 /* parceiros */
@@ -22,3 +23,4 @@
 
 /* termos e condições */
 @import url(./termos/termos.css);
+
