@@ -1,0 +1,15 @@
+.termos {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.termos h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.termos p {
+  padding-bottom: 10px;
+  text-align: left;
+  max-width: 75ch;
+}

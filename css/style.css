@@ -19,3 +19,6 @@
 @import url(./home/depoimento.css);
 /* seguros */
 @import url(./home/seguros.css);
+
+/* termos e condições */
+@import url(./termos/termos.css);
