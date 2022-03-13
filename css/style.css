@@ -12,6 +12,8 @@
 /* bicicletas */
 @import url(./bicicletas/bicicletas\ -lista.css);
 @import url(./bicicletas/bicicletas\ .css);
+@import url(./bicicleta/nimbus.css);
+@import url(./bicicleta/seguro.css);
 /*tecnologia*/
 @import url(./home/tecnologia.css);
 /* parceiros */
