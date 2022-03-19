@@ -1,3 +1,6 @@
+main {
+  background: #fff;
+}
 .termos {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -19,10 +22,10 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
- .termos h2 {
-   font-size: 1.5rem;
- }
- .termos p {
-   font-size: 1rem;
- }
+  .termos h2 {
+    font-size: 1.5rem;
+  }
+  .termos p {
+    font-size: 1rem;
+  }
 }

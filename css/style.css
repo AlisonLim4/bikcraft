@@ -33,3 +33,6 @@
 /* seguros */
 @import url(./seguros/seguros.css);
 @import url(./seguros/perguntas.css);
+
+/* orçamento */
+@import url(./orcamento/orcamento.css);

@@ -198,9 +198,7 @@ grid-column: 1/-1;
   padding-left: 16px;
   border-left: 1px solid var(--cor-2);
 }
-.lojas-dados {
-  
-}
+
 .lojas-dados a {
   font: 400 rem/1.5 "Roboto", sans-serif;
   
@@ -224,8 +222,19 @@ grid-column: 1/-1;
   height: 20px;
   width: 20px;
   padding: 8px;
-  
+}
 
+@media(max-width: 1100px) {
+  .lojas-item {
+    grid-template-columns: 1fr;
+  }
+  .lojas-dados {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .lojas-dados a {
+    margin-left: 60px;
+  }
 }
 
 
