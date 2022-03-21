@@ -5,7 +5,6 @@
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
-
 }
 main {
   background-color: var(--cor-11);
@@ -17,7 +16,8 @@ main {
   box-shadow: 0, 1px, 2px rgba(0, 0, 0, 0.1);
 }
 .contato-dados {
-  background-color: var(--cor-12);
+  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
   border-radius: 5px 0 0 5px;
   width: 460px;
 }
@@ -74,10 +74,11 @@ main {
 }
 
 .contato-formulario {
-  background-color: var(--cor-0);
   border-radius: 0 0 5px 5px;
   width: 700px;
   padding: 60px 60px;
+  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
 }
 
 .form {
@@ -108,7 +109,6 @@ main {
   border-color: var(--cor-p1);
   background: var(--cor-0);
   box-shadow: 0 0 0 2px #fea;
-  
 }
 
 .form div:nth-child(n + 3) {
@@ -133,13 +133,16 @@ main {
   height: 160px;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .main {
     box-shadow: none;
   }
   .contato {
     grid-template-columns: 1fr;
     justify-content: center;
+  }
+  .contato-dados {
+    background: var(--cor-12);
   }
   .contato-dados h2 {
     margin-bottom: 32px;
@@ -155,9 +158,9 @@ main {
 }
 .lojas {
   background-color: #fff;
- display:grid;
- grid-template-columns: 1fr 1fr;
- gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
   margin-top: 60px;
 }
 .lojas h2 {
@@ -171,10 +174,10 @@ main {
   gap: 40px;
   border: 1px solid var(--cor-1);
   margin-bottom: 60px;
-  
 }
-.lojas-item img, h3{
-grid-column: 1/-1;
+.lojas-item img,
+h3 {
+  grid-column: 1/-1;
 }
 .lojas-item h3 {
   margin-left: 60px;
@@ -201,15 +204,14 @@ grid-column: 1/-1;
 
 .lojas-dados a {
   font: 400 rem/1.5 "Roboto", sans-serif;
-  
+
   margin-right: 150px;
   padding-left: 16px;
   margin-bottom: 8px;
   border-left: 1px solid var(--cor-2);
-  
 }
 .lojas-item span {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.875rem;
   font-weight: 600;
   margin-left: 32px;
@@ -217,14 +219,14 @@ grid-column: 1/-1;
   display: flex;
   align-items: center;
 }
-.lojas-item span::before{
+.lojas-item span::before {
   content: url(/img/icones/horario.svg);
   height: 20px;
   width: 20px;
   padding: 8px;
 }
 
-@media(max-width: 1100px) {
+@media (max-width: 1100px) {
   .lojas-item {
     grid-template-columns: 1fr;
   }
@@ -236,9 +238,3 @@ grid-column: 1/-1;
     margin-left: 60px;
   }
 }
-
-
-
-
-
-
