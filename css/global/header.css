@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  padding-botton:20px;
+  padding-botton: 20px;
 }
 
 .header-menu {
@@ -23,6 +23,7 @@
 
   position: relative;
 }
+
 .header-menu a::after {
   content: "";
   display: block;
@@ -33,7 +34,8 @@
   transition: 0.3s;
   position: absolute;
 }
-.header-menu a:hover::after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 /* fim header e menu */
